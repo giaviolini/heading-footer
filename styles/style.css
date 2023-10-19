@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@400;600&family=Tilt+Warp&family=Ubuntu:wght@300;400&display=swap');
+*{
+  margin: 0;
+}
+
+body{
+  font-family:'Ubuntu', sans-serif;
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 20px;
+  background: #F7F4F2;
+}
+
+h1{
+  font-family: 'Tilt Warp', cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  color: #DE3163;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: #45B1E8;
+}
+
+h3{
+  color: #5A4FCF;
+}
+
+p{
+  color: #1B0812;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  text-indent: 50px;
+}
+
+header{
+  background-color: #D71868;
+  top: 0;
+  height: 100px;
+  width: 100%;
+}
+
+header h1, footer h1{
+  color: #FFADD6;
+  padding-top: 30px;
+  font-size: 46px;
+  text-align: center;
+}
+
+footer{
+  background-color: #D71868;
+  bottom: 0;
+  height: 250px;
+  width: 100%;
+}
+
+footer p{
+  color: #8B004B;
+  margin-top: 10px;
+  text-align: center;
+}
+
+footer a{
+  color: #8B004B;
+  text-transform: none;
+}
+
+.pagewrapper{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: 100%;
+  grid-template-areas: 
+  'nav content';
+}
+
+.sidebar{
+  height: 100%;
+  width: 100%;
+  background: #BB165B;
+  font-size: 16px;
+}
+
+.nav{
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-right: 40px;
+  font-weight: bold;
+}
+
+.nav ul{
+  list-style: none;
+}
+  
+li{
+  position: relative;
+  margin: 3.2em 0;
+}
+    
+a{
+  line-height: 3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  color: #8B004B;
+}
+    
+.active a{
+      color: white;
+}
+    
+:not(.active)::after{
+      opacity: 0.2;
+ }
+
+ #barbie{
+  float: left;
+  height: 25%;
+  width: 30%;
+  padding: 30px;
+ }
+
+ #headshot1, #headshot2, #headshot3, #headshot4, #headshot5{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    max-height: 100px;
+    max-width: 100px;
+    background-color: #9966CC;
+ }
+
+ #barbienfriends{
+    float: right;
+    margin-left: 25px;
+    margin-right: 40px;
+    max-height: 300px;
+    max-width: 500px;
+ }
+
+ #equality2, #equality{
+    margin-left: 30px;
+    margin-right: 40px;
+    max-height: 100%;
+    max-width: 50%;
+ }
+
+ #equality{
+  float: right;
+ }
+
+ #equality2{
+  float: left;
+ }
+
+ #barbiemovie{
+  float: right;
+  margin-left: 30px;
+  margin-right: 40px;
+  max-height: 100%;
+  max-width: 50%;
+ }
+ 
+ ul{
+  list-style-type: none;
+ }
+
+ em{
+  font-weight: bold;
+  font-style: normal;   
+ }
+
