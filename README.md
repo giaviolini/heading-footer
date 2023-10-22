@@ -1,4 +1,6 @@
 # Headings and Footers
+Assignment 6 of 10  
+
 ## What I learned/Practice
 This assignment as focused on using headings and footers as well as talking about a topic we were interested in. So, of course, I wrote mine on the hit block buster movie of summer 2023, Barbie. I also reused the same navbar is worked on in Inputs and Displays. 
 
